@@ -523,7 +523,7 @@ function updatePositions() {
   window.performance.mark("mark_start_frame");
 //getElementsByClassName
   var items = document.getElementsByClassName('mover');
-  console.log("sliding pizzas = ", items);
+  //console.log("sliding pizzas = ", items);
  //took the below line out of the loop as it remains the same for 200 items
   var phaseCalc = document.body.scrollTop / 1250;
   var itemslength = items.length;
